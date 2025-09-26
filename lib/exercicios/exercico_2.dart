@@ -11,8 +11,7 @@ void main() {
   if (a == b) {
     c = a + b;
     print("Os valores de A e B sao iguais o resultado da soma é $c.");
-  }
-  if (a != b) {
+  } else {
     c = a * b;
     print(
       "Os valores de A e B sao diferentes o resultado da multiplicaçao é $c.",
